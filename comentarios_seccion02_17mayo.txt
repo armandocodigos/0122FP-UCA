@@ -1,0 +1,125 @@
+paso a paso:
++inicializar i=1
+
+*************iteracion #1****************
++pregunto ¿1<5? true
++ejecuto lo que está dentro
++incremento i=2
+
+*************iteracion #2****************
++pregunto ¿2<5? true
++ejecuto lo que está dentro
++incremento i=3
+
+*************iteracion #3****************
++pregunto ¿3<5? true
++ejecuto lo que está dentro
++incremento i=4
+
+*************iteracion #4****************
++pregunto ¿4<5? true
++ejecuto lo que está dentro
++incremento i=5
+
+*************iteracion #5****************
++pregunto ¿5<5? false
+
+CPP = C plus plus = C++
+
+
+
+
+1,2,3,4,5,6,7,8,9,10=55
+2,2,2,2,2,2,2,2,2,2=20
+1,2,1,2,1,2,1,2,1,2=15
+
+
+
+
+
+40 / 2 = 20
+residuo=0
+
+16 / 2 = 8
+residuo=0
+
+120 / 2 = 60
+residuo=0
+
+todo numero par dividido entre 2,
+nos dará residuo cero
+
+
+
+15 / 2 = 7
+residuo=1
+
+29 / 2 = 14
+residuo=1
+
+todo numero impar dividido entre 2,
+nos dará residuo uno
+
+
+
+
+7,12,1,30,8=50
+1,2,3,4,5=6
+14,18,20,22,24=98
+15,16,17,18,19=34
+
+
+
+
+
+
+utilizar "cin >> variable; cin.ignore();"
+si quiero captar variables int, double, char
+
+utilizar "getline(cin, variable);"
+si quiero captar variables string
+
+
+
+
++mostrar "Estudiante #1"
++mostrar "Digite su nombre: "
++el usuario digitó "adrian enrique<ENTER>"
++getline buscó el <ENTER> y ocupó el <ENTER>
+para saber que la frase es adrian enrique
+
++mostrar "Digite Nota#1: "
++el usuario escribió "10<ENTER>"
++cin espera un número entero,
+cin utiliza UNICAMENTE el 10, deja el <ENTER> "flotando"
+
++mostrar "Estudiante #2"
++mostrar "Digite su nombre: "
++getline busca el <ENTER> y agarra todo lo que esté antes
++mostrar "Digite Nota#1: "
+
+
+
+
+9
+10
+9
+promedio = 9.333333
+
+
+8
+7
+9
+promedio = 8
+
+
+6
+8
+10
+promedio = 8
+
+
+10
+9
+10
+promedio = 9.66666

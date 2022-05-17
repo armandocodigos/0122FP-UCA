@@ -6,10 +6,13 @@ int main(void){
         <instrucciones>
     }*/
     cout << "ANTES" << endl;
-    for(int i = 50; i >= 0; i-=5){
+    int i = 1;
+    for(i = 1; i >= 1; i++){//i++ equivale a i = i+1
         cout << "Valor de i = " << i << endl;
+        //cualquier codigo
+        //llamadas a funciones
     }
-    cout << "DESPUES" << endl;
+    cout << "DESPUES i=" << i << endl;
 
     return 0;
 }
