@@ -1,0 +1,121 @@
+//1. funcion que tiene 1 input y 1 output
+//calculo de la renta ESA
+//input: salario (double)
+//output: renta (double)
+
+double calculo_renta_ESA(double salario){
+	//código de la función
+	//aquí dentro podremos usar la variable salario
+
+	return <valor>;
+}
+
+//2. funcion que tiene 2 input y 1 ouput
+//calculo de la renta en USA
+//input: salario (double) y estado_civil (string)
+//output: renta (double)
+
+double calculo_renta_USA(double salario, string estado_civil){
+	//código de la función
+	//aquí podremos usar los 2 parámetros
+
+	return <valor>;
+}
+
+//3. funcion que tiene 2 input y ningún output
+//función que salude al usuario
+//input: nombre (string) y apellido (string)
+//output: ninguno
+
+void saludar_usuario(string nombre, string apellido){
+	cout << "Hola " << nombre;
+	cout << apellido << endl;
+
+	//como mi función no devuelve nada (es void)
+	//entonces no necesito poner un return
+}
+
+//4. funcion que no tenga inputs ni outpus
+//funcion que muestre la hora en consola
+//input: ninguno
+//output: ninguno
+
+void mostrar_hora(){
+	//código de la función
+	//código de la función
+	//código de la función
+
+	//como mi función no devuelve nada (es void)
+	//entonces no necesito poner un return
+}
+
+// EJEMPLO 1 (una funcion)************************
+
+#include <iostream>
+using namespace std;
+
+//declaracion de la funcion (solamente la "firma")
+double calculo_renta_ESA(double salario);
+
+//mi programa principal
+int main(void){
+	//código
+	return 0;
+}
+
+//definicion de la funcion (la funcion completa)
+double calculo_renta_ESA(double salario){
+	//código de la función
+	//aquí dentro podremos usar la variable salario
+
+	return <valor>;
+}
+
+// EJEMPLO 2 (varias funciones)************************
+
+#include <iostream>
+using namespace std;
+
+//declaracion de la funcion (solamente la "firma")
+double calculo_renta_ESA(double salario);
+double calculo_renta_USA(double salario, string estado_civil);
+void saludar_usuario(string nombre, string apellido);
+void mostrar_hora();
+
+//mi programa principal
+int main(void){
+	//código
+	return 0;
+}
+
+//definicion de la funcion (la funcion completa)
+double calculo_renta_ESA(double salario){
+	//código de la función
+	//aquí dentro podremos usar la variable salario
+
+	return <valor>;
+}
+
+double calculo_renta_USA(double salario, string estado_civil){
+	//código de la función
+	//aquí podremos usar los 2 parámetros
+
+	return <valor>;
+}
+
+void saludar_usuario(string nombre, string apellido){
+	cout << "Hola " << nombre;
+	cout << apellido << endl;
+
+	//como mi función no devuelve nada (es void)
+	//entonces no necesito poner un return
+}
+
+void mostrar_hora(){
+	//código de la función
+	//código de la función
+	//código de la función
+
+	//como mi función no devuelve nada (es void)
+	//entonces no necesito poner un return
+}
