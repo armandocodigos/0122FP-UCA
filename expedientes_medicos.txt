@@ -1,0 +1,12 @@
+Datos del paciente #0
+Nombre completo: Juan Carlos Sibrian Palacios
+Temperatura: 27.3 . Peso: 100
+Diagnostico:Dolor de estomago
+Receta: Tomar x pastilla 2 veces al dia
+
+Datos del paciente #1
+Nombre completo: Ernesto Isai Figeroa Moran
+Temperatura: 27.4 . Peso: 100
+Diagnostico:Dolor de cabeza
+Receta: Tomar x pastilla 1 vez al dia
+
